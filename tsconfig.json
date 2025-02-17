@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Указывает целевую версию ECMAScript
+    "module": "commonjs", // Указывает систему модулей
+    "esModuleInterop": true, // Включает совместимость между CommonJS и ES модулями
+    "strict": true, // Включает строгий режим проверки типов
+    "skipLibCheck": true, // Пропускает проверку типов для файлов декларации
+    "forceConsistentCasingInFileNames": true, // Обеспечивает согласованность в написании имен файлов
+    "moduleResolution": "node", // Указывает метод разрешения модулей
+    "outDir": "./dist", // Указывает выходную директорию для скомпилированных файлов
+    "rootDir": "./app", // Указывает корневую директорию вашего исходного кода
+    "lib": ["es6", "dom"], // Указывает библиотеки, которые будут доступны в проекте
+    "noImplicitAny": true, // Запрещает неявное использование типа any
+    "noImplicitThis": true, // Запрещает неявное использование this
+    "sourceMap": true, // Генерирует файлы исходных карт для отладки
+    "strictNullChecks": true, // Включает строгую проверку на null и undefined
+    "strictFunctionTypes": true, // Ужесточает проверку типов для функций
+    "strictBindCallApply": true, // Ужесточает проверку типов для bind/call/apply
+    "strictPropertyInitialization": true, // Ужесточает проверку инициализации свойств
+    "jsx": "react" // Добавляет поддержку JSX
+  },
+  "include": ["app/**/*"], // Включает все файлы TypeScript в директории app
+  "exclude": ["node_modules"] // Исключает директорию node_modules из компиляции
+}
