@@ -1,0 +1,31 @@
+@use "variables" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+li,
+button {
+  text-decoration: none;
+  color: $standartFontColor;
+  transition: $standartTransition;
+  &:hover {
+    color: $standartFontHoverColor;
+  }
+}
+
+body {
+  min-width: 200px;
+  font-family: "Roboto", sans-serif;
+  color: $standartFontColor;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1320px) {
+  body {
+    font-size: 1rem;
+  }
+}

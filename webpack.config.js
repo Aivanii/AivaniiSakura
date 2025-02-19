@@ -8,16 +8,12 @@ module.exports = {
   mode: "development",
   module: {
     rules: [
-      { test: /\.svg$/, use: "svg-inline-loader" }, // Здесь вы можете оставить это, если хотите использовать SVG как инлайн
+      { test: /\.svg$/, use: "svg-inline-loader" },
       { test: /\.css$/, use: ["style-loader", "css-loader"] },
-      { test: /\.tsx?$/, use: "ts-loader", exclude: /node_modules/ }, // Add rule for .ts and .tsx files
+      { test: /\.tsx?$/, use: "ts-loader", exclude: /node_modules/ },
       {
         test: /\.scss$/,
-        use: [
-          "style-loader", // CSS
-          "css-loader", // CSS in CommonJS
-          "sass-loader", // SCSS in CSS
-        ],
+        use: ["style-loader", "css-loader", "sass-loader"],
       },
     ],
   },
@@ -30,7 +26,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./app/index.html", // Specify your HTML template if needed
+      template: "./app/index.html",
     }),
     new webpack.DefinePlugin({
       "process.env.NODE_ENV": JSON.stringify(
@@ -40,9 +36,9 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [
         {
-          from: "./public/Icons/*.svg", // Копируем все SVG файлы из этой папки
-          to: path.resolve(__dirname, "dist/Icons"),
-          noErrorOnMissing: true, // Не выдавать ошибку, если файл не найден
+          from: "./public/**/*", // Копируем все файлы и папки из public
+          to: path.resolve(__dirname, "dist/[path][name][ext]"), // Сохраняем структуру папок
+          noErrorOnMissing: true,
         },
       ],
     }),

@@ -1,0 +1,17 @@
+header {
+  height: 100px;
+}
+.headerWrapper {
+  width: clamp(200px, 100vw, 1920px);
+  margin: auto;
+  background-image: url("../../public/Other/HomePageHeaderWrapperBG.png");
+  height: clamp(81px, 100vw, 810px);
+}
+.textWrapperContainer {
+  height: calc(100% - 100px);
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+

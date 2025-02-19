@@ -1,0 +1,36 @@
+header {
+    background: black;
+    border-radius: 00% 0% 100% 45% / 0% 0% 90% 15%;
+}
+
+.logo {
+    width: clamp(100px, 20vw, 360px);
+}
+
+.centerItemsIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navWrapper {
+    display: flex;
+    nav {
+        width: 100%;
+        ul {
+            display: flex;
+            height: 100%;
+            align-items: center;
+            list-style-type: none;
+            justify-content: space-around;
+            width: 100%;
+            li {
+                margin: 8px;
+            }
+        }
+    }
+}
+.ContainerSubInfo {
+    display: flex;
+    justify-content: space-around;
+}
