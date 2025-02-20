@@ -1,9 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import "./styles/styles.scss";
+import "./assets/styles.scss";
 
 import Error404Page from "./pages/Error404.page";
+
 
 const App = () => (
   <Router>
