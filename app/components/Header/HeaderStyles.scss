@@ -1,0 +1,48 @@
+header {
+  display: flex;
+  margin: auto;
+  width: clamp(200px, 100vw, 1920px);
+  text-align: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.LogoHolder {
+  display: flex;
+  align-items: center;
+}
+
+.logoLetter {
+  font-family: "Comforter", serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  span {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: rgb(224, 107, 173);
+    width: 60px;
+    height: 60px;
+    margin: 20px 0px 20px 20px;
+    font-size: 3rem;
+    border-radius: 12px 0 12px 0;
+  }
+}
+
+.logoName {
+  font-family: Intro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.separator{
+    width: 2px;
+    height: 50px;
+    background: yellow;
+    margin: 0 20px 0 30px;
+}
