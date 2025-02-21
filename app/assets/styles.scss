@@ -4,10 +4,26 @@
   box-sizing: border-box;
 }
 body {
-  color: black;
+  background: rgb(241, 241, 241);
   font-size: 1.2rem;
+  font-family: Intro, sans-serif;
 }
 #root {
   width: clamp(200px, 100vw, 1920px);
   margin: auto; 
+}
+@media screen and (max-width: 630px) {
+  body {
+    font-size: .9rem;
+  }
+}
+@media screen and (max-width: 470px) {
+  body {
+    font-size: .75rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    font-size: .6rem;
+  }
 }
