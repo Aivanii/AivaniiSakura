@@ -1,19 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Header from "../../components/Header/HeaderComponents";
 import { Container } from "@mui/material";
 import "./MainPageStyles.scss";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Stack from '@mui/material/Stack';
-import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import { AdvantagesCardInfo } from "../../assets/Advantages";
 
 import AdvantagesCard from "../../components/AdvantagesCard/AdvantagesCardComponent";
 const HomePage = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
 
     return (
     <div>
@@ -51,7 +44,6 @@ const HomePage = () => {
         <h2>Преимущества работы с нами</h2>
         <div className="horizontalSeparatorVer2"></div>
       </Container>
-      <Box sx={{ width: 200 }}>
       <div className="AdvantagesCardHolder">
         {AdvantagesCardInfo.map((elem, index) => {
           return (
@@ -59,13 +51,10 @@ const HomePage = () => {
               key={index}
               iconSrc={elem.iconSrc}
               text={elem.text}
+              index={index}
             />
           );
         })}
-      </div>
-    </Box>
-      <div>
-        <div data-aos="zoom-in">Содержимое с анимацией.</div>
       </div>
     </div>
   );

@@ -44,10 +44,15 @@ header {
   }
 }
 
-.logoName {
+.logoName, .phoneSpan {
   font-family: Intro, sans-serif;
-  font-weight: 400;
+  font-weight: 800;
   font-style: normal;
+  font-size: 1.7em;
+}
+.phoneSpan{
+  margin-left: 12px;
+  font-size: clamp(.8em, 2vw, 1.7em);
 }
 .verticalSeparator {
   width: 1px;
@@ -60,4 +65,9 @@ h3 {
   text-transform: uppercase;font-family: 'Roboto Mono', sans-serif;
   font-size: 1em;
   font-weight: 200;
+}
+
+.phoneContainer{
+  display: flex;
+  justify-content: end;
 }

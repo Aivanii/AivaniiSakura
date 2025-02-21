@@ -1,7 +1,7 @@
 @use "../../assets/variables.scss" as *;
 
 .card{
-    width: clamp(180px, 80vw, 400px);
+    width: clamp(180px, 80vw, 320px);
     height: 220px;
     background: white;
     padding: 32px;
@@ -24,9 +24,9 @@
 
 .AdvantagesCardHolder{
     margin: auto;
-    width: clamp(200px, 100vw, 1920px);
+    width: clamp(200px, 80vw, 1920px);
     gap: 16px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
