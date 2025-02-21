@@ -1,0 +1,25 @@
+@use "../../assets/variables.scss" as *;
+.ourGiftContainerWrapper {
+  background: white;
+  padding: 80px;
+  height: 600px;
+  .ourGiftContainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  h2{
+    font-size: 2em;
+  }
+  p{
+    font-weight: 400;
+    font-size: 1em;
+  }
+  img{
+    height: 480px;
+    filter: drop-shadow(12px 8px 12px #000000b0);
+  }
+  .photoGiftHolder{
+    display: flex;
+    justify-content: end;
+  }
+}

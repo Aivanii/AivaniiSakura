@@ -2,10 +2,10 @@ import React from "react";
 import Header from "../../components/Header/HeaderComponents";
 import { Container } from "@mui/material";
 import "./MainPageStyles.scss";
-import Button from '@mui/material/Button';
 import { AdvantagesCardInfo } from "../../assets/Advantages";
-
 import AdvantagesCard from "../../components/AdvantagesCard/AdvantagesCardComponent";
+
+import OurGift from "../../components/OurGift/OurGiftComponent";
 const HomePage = () => {
 
     return (
@@ -37,7 +37,7 @@ const HomePage = () => {
             Только до 30 февраля вызов специалиста совершенно{" "}
             <span>бесплатно</span>.
           </p>
-          <Button variant="contained" className="callNowBtn">Заказать вызов мастера</Button>
+          <button>Заказать вызов мастера</button>
         </Container>
       </div>
       <Container className="contentContainer">
@@ -56,6 +56,7 @@ const HomePage = () => {
           );
         })}
       </div>
+      <OurGift/>
     </div>
   );
 };

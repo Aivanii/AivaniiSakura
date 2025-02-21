@@ -10,6 +10,7 @@ header {
   z-index: 2;
   position: relative;
   color: white;
+  backdrop-filter: blur(12px);
   div {
     display: flex;
     align-items: center;

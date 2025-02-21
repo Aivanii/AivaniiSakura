@@ -1,3 +1,4 @@
+@use "./variables.scss" as *;
 * {
   margin: 0;
   padding: 0;
@@ -10,20 +11,37 @@ body {
 }
 #root {
   width: clamp(200px, 100vw, 1920px);
-  margin: auto; 
+  margin: auto;
 }
 @media screen and (max-width: 630px) {
   body {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 }
 @media screen and (max-width: 470px) {
   body {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
 }
 @media screen and (max-width: 400px) {
   body {
-    font-size: .6rem;
+    font-size: 0.6rem;
+  }
+}
+.pinkTextSpan {
+  color: $primary-color;
+}
+button {
+  border: none;
+  border-radius: 16px 0 16px 0;
+  color: white;
+  cursor: pointer;
+  margin-top: 24px;
+  background: $primary-color;
+  padding: 0.8em 3em 0.8em 3em;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background: $secondary-color;
+    filter: drop-shadow(0 0 16px $secondary-color);
   }
 }
