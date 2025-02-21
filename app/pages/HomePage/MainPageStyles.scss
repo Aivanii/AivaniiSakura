@@ -1,0 +1,38 @@
+@use "../../assets/variables.scss" as *;
+.video-player {
+    position: relative;
+    width: clamp(200px, 100vw, 1920px);
+    margin: auto;
+    margin-top: -120px;
+    z-index: 1;
+    filter: brightness(20%);
+}
+
+.subTextOnVideo {
+    z-index: 5;
+    color: white;
+    top: calc(50% - 120px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    font-family: "Intro Condensed", sans-serif;
+    h1 {
+        font-size: 3.5em;
+        font-weight:1000;
+        text-transform: uppercase;
+    }
+    span {
+        color: $primary-color;
+    }
+}
+.horizontalSeparator {
+    width: 80px;
+    height: 5px;
+    border-radius: 14px;
+    background-color: $secondary-color;
+    margin: 12px auto 40px auto;
+}
+p {
+    font-weight: 200;
+}
