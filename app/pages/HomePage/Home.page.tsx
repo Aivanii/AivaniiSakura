@@ -6,6 +6,7 @@ import { AdvantagesCardInfo } from "../../assets/Advantages";
 import AdvantagesCard from "../../components/AdvantagesCard/AdvantagesCardComponent";
 
 import OurGift from "../../components/OurGift/OurGiftComponent";
+import OurWorks from "../../components/OurWorks/OurWorksComponent";
 const HomePage = () => {
 
     return (
@@ -56,7 +57,10 @@ const HomePage = () => {
           );
         })}
       </div>
+
       <OurGift/>
+        
+      <OurWorks/>
     </div>
   );
 };
