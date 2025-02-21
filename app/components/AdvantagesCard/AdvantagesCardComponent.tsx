@@ -10,7 +10,7 @@ const AdvantagesCard = ({ iconSrc = "", text = "", index = 0}) => {
   return (
     <div className="card"  
     data-aos="zoom-in"
-    data-aos-delay={100 * (index+1)}>
+    data-aos-delay={125 * (index+1)}>
       <img src={iconSrc} alt="" />
       <h4>{text}</h4>
     </div>
