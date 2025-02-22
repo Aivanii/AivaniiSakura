@@ -9,8 +9,7 @@ import HomePage from "./pages/HomePage/Home.page";
 const App = () => (
   <Router>
     <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="*" element={<Error404Page />} />
+      <Route path="*" element={<HomePage />} />
     </Routes>
   </Router>
 );
