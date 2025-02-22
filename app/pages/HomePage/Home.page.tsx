@@ -3,13 +3,13 @@ import Header from "../../components/Header/HeaderComponents";
 import { Container } from "@mui/material";
 import "./MainPageStyles.scss";
 import { AdvantagesCardInfo } from "../../assets/Advantages";
-import AdvantagesCard from "../../components/AdvantagesCard/AdvantagesCardComponent";
+import Card from "../../components/Cards/CardComponent";
 
 import OurGift from "../../components/OurGift/OurGiftComponent";
 import OurWorks from "../../components/OurWorks/OurWorksComponent";
+import OurGuarantees from "../../components/OurGuarantees/OurGuaranteesComponents";
 const HomePage = () => {
-
-    return (
+  return (
     <div>
       <Header />
       <div>
@@ -41,14 +41,14 @@ const HomePage = () => {
           <button>Заказать вызов мастера</button>
         </Container>
       </div>
-      <Container className="contentContainer">
+      <Container className="contentContainer">Card
         <h2>Преимущества работы с нами</h2>
         <div className="horizontalSeparatorVer2"></div>
       </Container>
       <div className="AdvantagesCardHolder">
         {AdvantagesCardInfo.map((elem, index) => {
           return (
-            <AdvantagesCard
+            <Card
               key={index}
               iconSrc={elem.iconSrc}
               text={elem.text}
@@ -58,9 +58,11 @@ const HomePage = () => {
         })}
       </div>
 
-      <OurGift/>
-        
-      <OurWorks/>
+      <OurGift />
+
+      <OurWorks />
+
+      <OurGuarantees />
     </div>
   );
 };
