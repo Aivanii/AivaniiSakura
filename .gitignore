@@ -1,0 +1,8 @@
+# Игнорировать папку node_modules
+node_modules/
+
+# Другие игнорируемые файлы и папки
+.DS_Store
+.env
+dist/
+build/
