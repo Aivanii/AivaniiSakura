@@ -1,16 +1,20 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import "./AdvantagesCardStyles.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const AdvantagesCard = ({ iconSrc = "", text = "", index = 0}) => {
+const AdvantagesCard = ({ iconSrc = "", text = "", index = 0 }) => {
   useEffect(() => {
-      AOS.init();
-    }, []);
+    AOS.init({
+      once: true
+    });
+  }, []);
   return (
-    <div className="card"  
-    data-aos="zoom-in"
-    data-aos-delay={150 * (index+1)}>
+    <div
+      className="card"
+      data-aos="zoom-in"
+      data-aos-delay={200 * (index + 1)}
+    >
       <img src={iconSrc} alt="" />
       <h4>{text}</h4>
     </div>
