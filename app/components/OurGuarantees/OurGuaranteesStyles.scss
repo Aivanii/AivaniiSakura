@@ -1,9 +1,0 @@
-@use "../../assets/variables.scss" as *;
-
-
-.ourGuaranteesWrapper{
-    margin: auto;
-    width: clamp(320px, 100vw, 1920px);
-    background: $primary-color;
-    height: 400px;
-}
