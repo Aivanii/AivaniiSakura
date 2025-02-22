@@ -13,7 +13,7 @@ const Header = () => {
           <span className="logoName">Сакура</span>
           <span className="verticalSeparator"></span>
         </div>
-        <Container maxWidth="md">
+        <Container maxWidth="md" className="descHolder">
           <h3>
             Студия ландшафтного дизайна в НСК
           </h3>

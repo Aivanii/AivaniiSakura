@@ -2,7 +2,7 @@
 header {
   display: flex;
   margin: auto;
-  width: clamp(200px, 100vw, 1920px);
+  width: clamp(320px, 100vw, 1920px);
   text-align: center;
   align-items: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.459);
@@ -21,7 +21,14 @@ header {
   display: flex;
   align-items: center;
 }
-
+@media screen and (max-width: 650px) {
+  .descHolder {
+    display: none;
+  }
+  .verticalSeparator {
+    display: none;
+  }
+}
 .logoLetter {
   font-family: "Comforter", serif;
   font-weight: 400;
@@ -45,15 +52,16 @@ header {
   }
 }
 
-.logoName, .phoneSpan {
+.logoName,
+.phoneSpan {
   font-family: Intro, sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size: 1.7em;
 }
-.phoneSpan{
+.phoneSpan {
   margin-left: 12px;
-  font-size: clamp(.8em, 2vw, 1.7em);
+  font-size: clamp(0.8em, 2vw, 1.7em);
 }
 .verticalSeparator {
   width: 1px;
@@ -63,12 +71,13 @@ header {
 }
 
 h3 {
-  text-transform: uppercase;font-family: 'Roboto Mono', sans-serif;
+  text-transform: uppercase;
+  font-family: "Roboto Mono", sans-serif;
   font-size: 1em;
   font-weight: 200;
 }
 
-.phoneContainer{
+.phoneContainer {
   display: flex;
   justify-content: end;
 }

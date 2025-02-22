@@ -8,24 +8,15 @@ body {
   background: rgb(241, 241, 241);
   font-size: 1.2rem;
   font-family: Intro, sans-serif;
+  width: clamp(320px, 100vw, 1920px);
 }
 #root {
-  width: clamp(200px, 100vw, 1920px);
+  width: clamp(320px, 100vw, 1920px);
   margin: auto;
 }
 @media screen and (max-width: 760px) {
   body {
     font-size: 0.95rem;
-  }
-}
-@media screen and (max-width: 470px) {
-  body {
-    font-size: 0.75rem;
-  }
-}
-@media screen and (max-width: 400px) {
-  body {
-    font-size: 0.6rem;
   }
 }
 .pinkTextSpan {

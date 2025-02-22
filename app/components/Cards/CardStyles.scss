@@ -25,10 +25,10 @@
 
 .AdvantagesCardHolder {
     margin: auto;
-    width: clamp(200px, 80vw, 1920px);
+    width: clamp(320px, 80vw, 1920px);
     gap: 16px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    margin-bottom: clamp(20px, 10vw, 100px);
 }

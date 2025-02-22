@@ -13,7 +13,7 @@ const OurGift = () => {
   return (
     <div className="ourGiftContainerWrapper">
       <Container className="ourGiftContainer">
-        <Container maxWidth="xs">
+        <Container maxWidth="xs" className = "firstDivOurGiftContainer">
           <h2 data-aos="fade-down" data-aos-delay="300">
             Приятный бонус
           </h2>

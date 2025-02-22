@@ -9,12 +9,14 @@
   left: calc(50% - 1px);
   top: calc(0% - 200px);
   transform: translate(-50%, 0);
+  object-fit: cover;
+  width: clamp(320px, 100vw, 1920px);
 }
 
 .subTextOnVideo {
   z-index: 5;
   color: white;
-  top: calc(50% - 120px);
+  top: clamp(120px, 42vh, 480px);
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
@@ -49,6 +51,15 @@ button {
   border-radius: 14px;
   background-color: $secondary-color;
   margin: 40px 0 40px 0;
+  @media screen and (max-width: 1200px) {
+    margin: 30px 0 30px 0;
+  }
+  @media screen and (max-width: 720px) {
+    margin: 16px 0 16px 0;
+  }
+  @media screen and (max-width: 400px) {
+    margin: 12px 0 12px 0;
+  }
 }
 .contentContainer {
   margin-top: 820px;
