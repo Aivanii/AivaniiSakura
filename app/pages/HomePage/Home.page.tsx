@@ -41,7 +41,7 @@ const HomePage = () => {
           <button>Заказать вызов мастера</button>
         </Container>
       </div>
-      <Container className="contentContainer">Card
+      <Container className="contentContainer">
         <h2>Преимущества работы с нами</h2>
         <div className="horizontalSeparatorVer2"></div>
       </Container>

@@ -31,16 +31,13 @@ const OurGift = () => {
           </button>
         </Container>
 
-        <Container
+        <img
           className="photoGiftHolder"
           data-aos="fade-left"
           data-aos-delay="900"
-        >
-          <img
-            src="https://i.ibb.co/tpb0y7pV/68f9526ed82c48399a7ad84d-Photoroom.png"
-            alt="Бонсай-сакура"
-          />
-        </Container>
+          src="https://i.ibb.co/tpb0y7pV/68f9526ed82c48399a7ad84d-Photoroom.png"
+          alt="Бонсай-сакура"
+        />
       </Container>
     </div>
   );

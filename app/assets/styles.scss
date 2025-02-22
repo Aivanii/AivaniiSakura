@@ -13,9 +13,9 @@ body {
   width: clamp(200px, 100vw, 1920px);
   margin: auto;
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 760px) {
   body {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 }
 @media screen and (max-width: 470px) {
@@ -44,4 +44,8 @@ button {
     background: $secondary-color;
     filter: drop-shadow(0 0 16px $secondary-color);
   }
+}
+
+h2 {
+  font-size: 2em;
 }
