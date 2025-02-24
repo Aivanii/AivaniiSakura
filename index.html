@@ -83,7 +83,7 @@
         color: #ff00aa;
       }
 
-      button {
+      button, a {
         border: none;
         border-radius: 16px 0 16px 0;
         color: white;
@@ -92,6 +92,7 @@
         background: #ff00aa;
         padding: 0.8em 3em 0.8em 3em;
         transition: all 0.2s ease-in-out;
+        text-decoration: none;
       }
       button:hover {
         background: rgb(204, 42, 169);
@@ -1707,7 +1708,7 @@
               Только до 30 февраля вызов специалиста совершенно
               <span>бесплатно</span>.
             </p>
-            <button>Заказать вызов мастера</button>
+            <a href = "contactForm">Заказать вызов мастера</a>
           </div>
         </div>
         <div
@@ -1976,7 +1977,7 @@
             </div>
           </div>
         </div>
-        <div class="contactFormContainer">
+        <div class="contactFormContainer" id = "contactForm">
           <img
             alt="contact form bg"
             src="https://www.coronatours.ru/media/cache/e0/ab/e0abb66bc67748bf45c23e45161478a0.jpg"
