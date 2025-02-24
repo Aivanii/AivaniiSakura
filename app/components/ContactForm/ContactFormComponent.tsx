@@ -12,7 +12,7 @@ const ContactForm = () => {
   return (
     <div className="contactFormContainer">
       <img
-        src="https://uploads-ssl.webflow.com/570118c96d89fd540a96498d/5713f13cfbe891be774e9521_Pond%20Form%20Bg.jpg"
+        src="https://www.coronatours.ru/media/cache/e0/ab/e0abb66bc67748bf45c23e45161478a0.jpg"
         alt="contact form bg"
       ></img>
       <Container maxWidth="md" className="innerContainerContainerForm">
