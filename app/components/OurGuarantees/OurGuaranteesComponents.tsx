@@ -12,7 +12,7 @@ const OurGuarantees = () => {
   }, []);
   return (
     <div className="ourGuaranteesWrapper">
-      <Container>
+      <Container maxWidth="md">
         <h2 data-aos="fade-down" data-aos-delay="300">
           Наши гарантии
         </h2>

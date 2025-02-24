@@ -52,7 +52,7 @@ const HomePage = () => {  useEffect(() => {
           <button>Заказать вызов мастера</button>
         </Container>
       </div>
-      <Container className="contentContainer">
+      <Container className="contentContainer" maxWidth="md">
         <h2>Преимущества работы с нами</h2>
         <div className="horizontalSeparatorVer2"></div>
       </Container>
