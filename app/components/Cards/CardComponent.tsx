@@ -11,7 +11,7 @@ const Card = ({ iconSrc = "", text = "", index = 0 }) => {
   }, []);
   return (
     <div className="card" data-aos="zoom-in" data-aos-delay={200 * (index + 1)}>
-      <img src={iconSrc} alt="" />
+      <img src={iconSrc} alt={text} />
       <h4>{text}</h4>
     </div>
   );
