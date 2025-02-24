@@ -9,6 +9,7 @@ import OurGift from "../../components/OurGift/OurGiftComponent";
 import OurWorks from "../../components/OurWorks/OurWorksComponent";
 import OurGuarantees from "../../components/OurGuarantees/OurGuaranteesComponents";
 import ContactForm from "../../components/ContactForm/ContactFormComponent";
+import Footer from "../../components/Footer/FooterComponents";
 const HomePage = () => {
   return (
     <div>
@@ -69,6 +70,8 @@ const HomePage = () => {
       <OurGuarantees />
 
       <ContactForm />
+
+      <Footer />
     </div>
   );
 };
