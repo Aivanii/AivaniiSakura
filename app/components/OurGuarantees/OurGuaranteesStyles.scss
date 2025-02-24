@@ -2,7 +2,8 @@
 
 .ourGuaranteesWrapper {
     margin: auto;
-    padding: clamp(20px, 10vw, 100px);
+    padding-top: clamp(20px, 10vw, 100px);
+    padding-bottom: clamp(20px, 10vw, 100px);
     width: clamp(320px, 100vw, 1920px);
     background: #ae2999;
     h2{
