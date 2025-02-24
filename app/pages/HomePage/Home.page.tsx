@@ -1,4 +1,4 @@
-import React from "react";
+import React , { useEffect } from "react";
 import Header from "../../components/Header/HeaderComponents";
 import { Container } from "@mui/material";
 import "./MainPageStyles.scss";
@@ -10,7 +10,13 @@ import OurWorks from "../../components/OurWorks/OurWorksComponent";
 import OurGuarantees from "../../components/OurGuarantees/OurGuaranteesComponents";
 import ContactForm from "../../components/ContactForm/ContactFormComponent";
 import Footer from "../../components/Footer/FooterComponents";
-const HomePage = () => {
+import AOS from "aos";
+import "aos/dist/aos.css";
+const HomePage = () => {  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
   return (
     <div>
       <Header />
@@ -72,6 +78,9 @@ const HomePage = () => {
       <ContactForm />
 
       <Footer />
+      <div className = "authorContainer"  data-aos="zoom-in" data-aos-delay="1000">
+        made by Aivanii
+      </div>
     </div>
   );
 };

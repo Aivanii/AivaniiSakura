@@ -68,3 +68,21 @@ button {
     font-size: 2em;
   }
 }
+
+.authorContainer {
+  position: fixed;
+  width: 120px;
+  height: 32px;
+  right: 12px;
+  bottom: 12px;
+  z-index: 999;
+  background: white;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px $primary-color solid;
+  backdrop-filter: blur(20px); 
+  border-radius: 16px 0 16px 0;
+}
