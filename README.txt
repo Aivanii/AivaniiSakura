@@ -1,33 +1,18 @@
-Purpose of the Website:
-To practise developing a platform for the convenient purchase of reptiles, snakes, and spiders, focusing on ease of navigation, secure transactions, and providing necessary information on animal care.
+Описание и Цель Проекта
 
-Main Sections of the Website:
-In development
+Цель Веб-сайта:
+Создать одностраничный лендинг для компании "Сакура", предлагающей услуги по проектированию садового дизайна и благоустройству территории. Основное внимание будет уделено визуальной привлекательности, информативности и удобству навигации, чтобы привлечь клиентов и продемонстрировать профессионализм компании.
+Основные Разделы Веб-сайта:
 
-Search Filters: The ability to filter by type (reptiles, snakes, spiders), breed, age, and price.
+    Главный Экран
+    Преимущества работы с нами
+    Приятный бонус
+    Наши работы
+    Наши гарантии
+    Форму связи
 
-Product Pages: Each animal has its own page with:
-In development
+Технические Детали:
 
-Care Guides: In development
-
-Convenient Cart: The ability to add multiple items and easily manage them.
-
-Checkout Process: A step-by-step process with options for delivery and payment.
-
-Secure Payments: Integration with payment systems for safe transactions.
-
-Customer Support:
-
-Frequently Asked Questions (FAQ): A section with answers to common questions about purchasing and caring for animals.
-Contact Form: The ability to ask a question or receive consultation from specialists.
-Blog and News:
-
-Care and Maintenance Articles: Useful materials for reptile and spider owners.
-Updates on New Arrivals: Information about new animals and promotions.
-Technical Details:
-
-Database: Storing information about animals, users, and orders using MySQL or another database management system.
-Optimization: SEO optimization to improve visibility in search engines.
-Responsive Design: Ensuring proper display on mobile devices and tablets.
-Security: Use of SSL certificates to protect user data and ensure secure transactions.
+    Адаптивный Дизайн: Обеспечение корректного отображения на мобильных устройствах и планшетах.
+    SEO-Оптимизация: Оптимизация контента для улучшения видимости в поисковых системах.
+    Современные технологии: React, Webpack, TypeScript, SCSS
