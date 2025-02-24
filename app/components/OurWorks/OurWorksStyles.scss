@@ -60,10 +60,12 @@ span {
   font-size: 1em;
 }
 @media screen and (max-width: 768px) {
-  h4 {
-    font-size: 1em;
-  }
-  span {
-    font-size: 0.6em;
+  .ourWorksWrapper {
+    h4 {
+      font-size: 1em;
+    }
+    span {
+      font-size: 0.6em;
+    }
   }
 }

@@ -16,17 +16,14 @@
 .subTextOnVideo {
   z-index: 5;
   color: white;
-  top: clamp(120px, 42vh, 480px);
+  top: 460px;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
   text-align: center;
   font-family: "Intro Condensed", sans-serif;
-  h1 {
-    font-size: 2em;
-    font-weight: 1000;
-    text-transform: uppercase;
-  }
+  font-weight: 1000;
+  text-transform: uppercase;
   span {
     color: $primary-color;
   }
@@ -40,9 +37,13 @@
   margin: 12px auto 40px auto;
 }
 p,
+button,
+span {
+  font-size: 1.2em;
+}
+p,
 button {
   font-weight: 300;
-  font-size: 1.2em;
 }
 
 .horizontalSeparatorVer2 {

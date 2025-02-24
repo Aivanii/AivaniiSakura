@@ -8,6 +8,7 @@ import Card from "../../components/Cards/CardComponent";
 import OurGift from "../../components/OurGift/OurGiftComponent";
 import OurWorks from "../../components/OurWorks/OurWorksComponent";
 import OurGuarantees from "../../components/OurGuarantees/OurGuaranteesComponents";
+import ContactForm from "../../components/ContactForm/ContactFormComponent";
 const HomePage = () => {
   return (
     <div>
@@ -60,12 +61,14 @@ const HomePage = () => {
           );
         })}
       </div>
-
+  
       <OurGift />
 
       <OurWorks />
 
       <OurGuarantees />
+
+      <ContactForm />
     </div>
   );
 };
