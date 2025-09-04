@@ -46,7 +46,7 @@ const HomePage = () => {  useEffect(() => {
           </h1>
           <div className="horizontalSeparator"></div>
           <p>
-            Только до 30 февраля вызов специалиста совершенно{" "}
+            Только до 28 февраля вызов специалиста совершенно{" "}
             <span>бесплатно</span>.
           </p>
           <button>Заказать вызов мастера</button>
