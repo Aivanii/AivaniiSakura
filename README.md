@@ -24,6 +24,3 @@ A professional and elegant landing page for the "Sakura" landscape design studio
 *   **Component Library:** [Material UI (MUI)](https://mui.com/)
 *   **Styling:** [SCSS/SASS](https://sass-lang.com/) for custom styles
 
----
-
-**Developed by [Ivan Kiman](https://github.com/Aivanii) | [View My Other Projects](https://github.com/Aivanii)**
