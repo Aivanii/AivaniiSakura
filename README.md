@@ -6,7 +6,7 @@ A professional and elegant landing page for the "Sakura" landscape design studio
 
 **[🚀 View Live Demo](https://aivanii.github.io/AivaniiSakura/)**
 
-![Preview of the Sakura Landing Page]([https://i.ibb.co/0Q8L0y2/screenshot.png](https://ibb.co/hJtYN3nJ))
+![Preview of the Sakura Landing Page](https://i.ibb.co/NdHTqckd/250904-20h16m22s-screenshot.png)
 
 ## 🚀 Key Features
 
